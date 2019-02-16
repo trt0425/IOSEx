@@ -52,6 +52,7 @@
 		36B1ED7C221795ED00BE11EC /* DYZB */ = {
 			isa = PBXGroup;
 			children = (
+				36B1ED8F2217BC3200BE11EC /* Classes */,
 				36B1ED7D221795ED00BE11EC /* AppDelegate.swift */,
 				36B1ED81221795ED00BE11EC /* Main.storyboard */,
 				36B1ED84221795ED00BE11EC /* Assets.xcassets */,
@@ -59,6 +60,61 @@
 				36B1ED89221795ED00BE11EC /* Info.plist */,
 			);
 			path = DYZB;
+			sourceTree = "<group>";
+		};
+		36B1ED8F2217BC3200BE11EC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				36B1ED952217BC3200BE11EC /* Main */,
+				36B1ED902217BC3200BE11EC /* Home */,
+				36B1ED942217BC3200BE11EC /* Live */,
+				36B1ED922217BC3200BE11EC /* Follow */,
+				36B1ED932217BC3200BE11EC /* Profile */,
+				36B1ED912217BC3200BE11EC /* Tools */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		36B1ED902217BC3200BE11EC /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		36B1ED912217BC3200BE11EC /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		36B1ED922217BC3200BE11EC /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		36B1ED932217BC3200BE11EC /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		36B1ED942217BC3200BE11EC /* Live */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		36B1ED952217BC3200BE11EC /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
